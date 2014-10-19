@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.medicinalplants"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.medicinalplants.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.medicinalplants.TreeListActivity"
+            android:label="@string/title_activity_tree_list" >
+        </activity>
+        <activity
+            android:name="com.example.medicinalplants.ThankuniActivity"
+            android:label="@string/title_activity_thankuni" >
+        </activity>
+        <activity
+            android:name="com.example.medicinalplants.BellActivity"
+            android:label="@string/title_activity_bell" >
+        </activity>
+        <activity
+            android:name="com.example.medicinalplants.BasokActivity"
+            android:label="@string/title_activity_basok" >
+        </activity>
+        <activity
+            android:name="com.example.medicinalplants.DurbaActivity"
+            android:label="@string/title_activity_durba" >
+        </activity>
+        <activity
+            android:name="com.example.medicinalplants.BoheraActivity"
+            android:label="@string/title_activity_bohera" >
+        </activity>
+        <activity
+            android:name="com.example.medicinalplants.KalmeghActivity"
+            android:label="@string/title_activity_kalmegh" >
+        </activity>
+        <activity
+            android:name="com.example.medicinalplants.NimActivity"
+            android:label="@string/title_activity_nim" >
+        </activity>
+        <activity
+            android:name="com.example.medicinalplants.TulsiActivity"
+            android:label="@string/title_activity_tulsi" >
+        </activity>
+        <activity
+            android:name="com.example.medicinalplants.NoyontaraActivity"
+            android:label="@string/title_activity_noyontara" >
+        </activity>
+        <activity
+            android:name="com.example.medicinalplants.SharpaghandhaActivity"
+            android:label="@string/title_activity_sharpaghandha" >
+        </activity>
+        <activity
+            android:name="com.example.medicinalplants.AkondoActivity"
+            android:label="@string/title_activity_akondo" >
+        </activity>
+        <activity
+            android:name="com.example.medicinalplants.AnjonActivity"
+            android:label="@string/title_activity_anjon" >
+        </activity>
+        <activity
+            android:name="com.example.medicinalplants.KashrajActivity"
+            android:label="@string/title_activity_kashraj" >
+        </activity>
+        <activity
+            android:name="com.example.medicinalplants.KholkeActivity"
+            android:label="@string/title_activity_kholke" >
+        </activity>
+        <activity
+            android:name="com.example.medicinalplants.KoloskathiActivity"
+            android:label="@string/title_activity_koloskathi" >
+        </activity>
+        <activity
+            android:name="com.example.medicinalplants.LojjabotiActivity"
+            android:label="@string/title_activity_lojjaboti" >
+        </activity>
+    </application>
+
+</manifest>
